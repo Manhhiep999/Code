@@ -6,7 +6,7 @@ int ucln(int a, int b){
 	while(b!=0){
 		int tmp=a;
 		a=b;
-		b=temp;
+		b=tmp;
 	}
 	return b;
 }
